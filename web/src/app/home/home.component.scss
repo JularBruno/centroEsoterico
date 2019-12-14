@@ -1,0 +1,84 @@
+@import "../../assets/variables";
+
+.parallax {
+    /* The image used */
+    background: url("../../assets/img/heart.jpg") no-repeat;
+
+    /* Set a specific height */
+    height: 30em;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    background: url("../../assets/img/profile.jpg") no-repeat;
+
+    // height: auto;
+    // width: auto;
+    min-width: 15em;
+    min-height: 15em;
+    
+}
+
+.pair {
+    background: url("../../assets/img/pair.jpg") no-repeat;
+
+    height: auto;
+    width: auto;
+    
+}
+
+.brand {
+    color: orange;
+}
+
+.row-align {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.values-container {
+    justify-content: center;
+    align-items: center;
+    // padding: 2.5rem !important;
+    color: white;
+    background-color: $color_1;
+    text-align: center;
+
+    .value {
+        margin: 2em;
+        font-size: 5em;
+
+        .fa {
+            font-size: 5em;
+        }
+    }
+
+    .value-h2 {
+        font-size: 3em;
+    }
+
+    .value-h5 {
+        margin: 1em;
+        font-size: 2em;
+    }
+
+    .value-p {
+        font-size: 1.5em;
+        margin-top: 1em !important;
+        margin: 3em;
+    }
+
+    .vl {
+        border-left: 6px solid white;
+        height: 5em;
+        margin-left: 50%;
+        margin-top: 1em;
+
+    }
+}

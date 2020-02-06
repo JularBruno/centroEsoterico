@@ -23,6 +23,7 @@ import { ProgressComponent } from './shared/progress/progress.component';
 import { HeaderTitleComponent } from './shared/header-title/header-title.component';
 
 import { NgAutonumericModule } from '@angularfy/ng-autonumeric';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -51,6 +52,7 @@ const routes: Routes = [
     RecaptchaModule.forRoot(),
     BsDropdownModule.forRoot(),
     NgAutonumericModule,
+    AngularFontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

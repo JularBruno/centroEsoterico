@@ -21,7 +21,7 @@
     // width: auto;
     min-width: 15em;
     min-height: 15em;
-    
+
 }
 
 .pair {
@@ -29,7 +29,7 @@
 
     height: auto;
     width: auto;
-    
+
 }
 
 .brand {
@@ -41,6 +41,47 @@
     justify-content: center;
     align-items: center;
 }
+
+.pair {
+  background-image: url("/assets/img/pair.jpg");
+  background-color: #ffffff !important;
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: no-repeat;
+  min-height: 718px;
+  color:white;
+  text-align: center;
+
+}
+
+.testimonios {
+  background-color: $color_2;
+  height: 25em;
+  margin-top: 6em;
+
+  .testimoniosRow {
+      height: 25em;
+  }
+}
+
+.warap {
+//   background-color: $color_1;
+    height: 25em;
+    background-color: $color_1 !important;
+    background-size: cover;
+    // background-position-x: center;
+    // background-blend-mode: no-repeat;
+    color:white;
+    text-align: center;
+  
+  .warap1 {
+    background-color: $color_4;
+    // padding: 5em;
+    // margin: 5em;
+    height: 5em;
+  }
+}
+
 
 .values-container {
     justify-content: center;
